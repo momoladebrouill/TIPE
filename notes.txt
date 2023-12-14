@@ -1,0 +1,14 @@
+# Notes pour le TIPE
+
+Ce tipe s'articule autour d'un axe physique et un axe informatique
+
+## Informatique
+
+### Présentation
+L'enjeu est de pouvoir présenter les calculs en temps réel tout en étant 
+au plus près de la simulation physique.
+
+
+
+
+
