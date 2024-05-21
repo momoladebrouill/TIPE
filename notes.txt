@@ -1,13 +1,38 @@
 # Notes pour le TIPE
 
 Ce tipe s'articule autour d'un axe physique et un axe informatique
+## Inspirations
+- La conf des élèves des mines de paris sur le verre
 
+
+## Physique
+
+### Présentation
+Nous essayons de modéliser le comportement d'un solide déformable. 
+Nous adoptons le modèle d'un solide élastique linéaire isotrope.
+
+### Applications
+
+
+### Expérience
+#### Mesure du coeficient de poisson
+1 - Methode de la compression
+On compresse un solide déformable comme une mousse et on mesure son coefficient de poisson.
+On mesure la déformation dans les trois directions et on en déduit le coefficient de poisson.
+--> On adapte le modèle informatique pour obtenir le même résultat.
+2 - Methode de la déformation
+On fait osciller un solide déformable et on mesure la vitesse de propagation de l'onde.
+--> On vérifie que la vitesse de propagation est bien celle prédite par le modèle.
 ## Informatique
 
 ### Présentation
 L'enjeu est de pouvoir présenter les calculs en temps réel tout en étant 
 au plus près de la simulation physique.
 
+### Modélisation
+Nous modélisons le solide par un ensemble de points matériels reliés par des ressorts.
+Nous avons donc un ensemble de points `P_i` et un ensemble de ressorts `R_i`.
+Chaque ressort `R_i` est caractérisé par sa longueur à vide `l_i` et sa raideur `k_i`.
 
 
 
