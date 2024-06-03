@@ -1,2 +1,2 @@
-coefficent de Lamé, module d'Young
 justification de Runge et Kutta
+sport et solide déformable
